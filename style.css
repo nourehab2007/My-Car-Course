@@ -232,3 +232,29 @@ legend{
     border: solid rgb(5, 5, 75);
     color: antiquewhite;
 }
+footer{
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.452);
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    height:100px ;
+position: sticky;
+bottom: 0;
+margin-top: 200px;
+}
+@media(max-width:600px){
+    footer{
+        margin-top: 500px;
+        font-size: large;
+    }
+}
+@media(min-width:601px) and ( max-width:992px){
+    footer{
+          margin-top: 500px;
+        font-size:x-large ;
+        width: 1000px;
+    }
+}
+
